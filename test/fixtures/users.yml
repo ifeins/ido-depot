@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: Ido
+  password_digest: <%= BCrypt::Password.create("private") %>
+
+two:
+  name: blat
+  password_digest: <%= BCrypt::Password.create("blat") %>
+
